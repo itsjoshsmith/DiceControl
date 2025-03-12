@@ -39,7 +39,7 @@ private void Controller_RollStarted(object sender, ControllerRollStartedEventArg
 private void Controller_RollFinished(object sender, ControllerRollFinishedEventArgs e)
 {
   int dice1Result = e.Results["Dice1"];
-  int dice2Result = e.Results["Dice1"];
+  int dice2Result = e.Results["Dice2"];
   int totalResult = e.TotalResult;
   bool isResultDouble = e.IsDouble;
 }
