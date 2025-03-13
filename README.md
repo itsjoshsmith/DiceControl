@@ -2,6 +2,9 @@
 The control library is made up of two vital parts, the first being the dice itself, the second being the dice controller. 
 The dice controllers job is to handle the rolling and syncronisation of multiple dice.
 
+> [!WARNING]
+> This control has been used minimally, probably twice. Please don't include it / rely on it for anything important.
+
 # Usage
 ### Create the dice controller
 This instance of the dice controller will handle all the dice added to it
